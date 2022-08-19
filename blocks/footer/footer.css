@@ -1,0 +1,148 @@
+.footer {
+    background-color: rgb(52, 51, 62);
+    color: white;
+}
+
+.footer__wrapper {
+    margin: 0 auto 0;
+    max-width: 1160px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 100px;
+}
+
+.footer__copy {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer__clients {
+    list-style-type: none;
+    text-align: end;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 0 0 2vw;
+
+}
+
+.footer__partners {
+    list-style-type: none;
+    text-align: end;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 0 0 2vw;
+
+}
+
+.footer__contacts {
+    list-style-type: none;
+    text-align: end;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 0 0 2vw;
+
+}
+.logo_place_footer {
+    color: white;
+    max-width: 150px;
+    letter-spacing: 0.10em;
+}
+
+
+.footer__title {
+    color: rgb(139, 123, 255);
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+.link_place-footer {
+    color: white;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.footer__button {
+    margin: 30px 0 0;
+
+}
+
+.button_place_footer {
+    
+    padding: 10px 25px;
+}
+.footer__contacts {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+@media (max-width: 770px) {
+    .footer__wrapper {
+        flex-wrap: wrap;
+        
+    }
+
+    .footer__copy {
+        min-height: 100px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        order: 5;
+        align-items: flex-end;
+        margin-left: 10px;
+    }
+
+    .footer__clients {
+        text-align: left;
+    }
+
+    .footer__partners {
+        text-align: left;
+    }
+
+    .footer__contacts {
+        text-align: left;
+    }
+}
+
+@media (max-width: 660px) {
+    .footer__wrapper {
+        flex-wrap: wrap;
+        gap: 55px;
+        align-content: flex-start;
+        padding: 50px 10px;
+    }
+
+    .footer__copy {
+        min-height: 100px;
+        flex-direction: row;
+        width: 100%;
+        order: 5;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 322px) {
+    .footer__copy {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+        min-height: 50px;
+        margin-left: 10px;
+    }
+
+    .copyright {
+        margin-top: 15px;
+    }
+}

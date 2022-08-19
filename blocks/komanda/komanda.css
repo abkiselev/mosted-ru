@@ -1,0 +1,54 @@
+.komanda__cards {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 30px;
+    margin: 50px 0 120px;
+}
+
+.komanda__card {
+    
+}
+
+.komanda__img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.komanda__dolzhnost {
+    font-size: 12px;
+}
+
+.komanda__fio {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 770px) {
+    .komanda__cards {
+        gap: 20px;
+        margin: 0 0 80px;
+        grid-template-columns: repeat(auto-fit,minmax(180px, 1fr));
+    }
+}
+
+@media (max-width: 465px) {
+    .komanda__cards {
+        /* display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+        gap: 30px;
+        margin: 50px 0 120px; */
+
+        grid-template-columns: repeat(auto-fit,minmax(135px, 1fr));
+        gap: 10px;
+    
+    }
+
+    .komanda__img {
+        height: 120px;
+    }
+}

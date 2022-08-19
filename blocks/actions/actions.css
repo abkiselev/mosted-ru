@@ -1,0 +1,39 @@
+.actions {
+    margin-bottom: 120px;
+}
+
+.action__cards {
+    display: flex;
+    gap: 30px;
+    /* flex-wrap: wrap; */
+}
+
+.action__card {
+    border-radius: 5px;
+    border: 1px solid rgb(227, 227, 227);
+    padding: 30px 30px;
+    /* max-width: 500px;
+    min-width: 300px; */
+}
+
+.action__title {
+    margin: 0;
+    margin: 0 0 20px 0;
+}
+
+.action__text {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 770px) {
+    .actions {
+        margin-bottom: 80px;
+    }
+
+    .action__cards {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}

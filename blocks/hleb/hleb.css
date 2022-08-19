@@ -1,0 +1,14 @@
+.hleb {
+    margin: 100px 0 100px;
+}
+
+.link_place_hleb {
+    font-size: 12px;
+}
+
+
+@media (max-width: 770px) {
+    .hleb {
+        margin: 85px 0 70px;
+    }
+}

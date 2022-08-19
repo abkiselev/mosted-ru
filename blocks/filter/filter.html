@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/filter/filter.css">
+    <title>Document</title>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+        ym(88600356, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/88600356" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="page">
+    <div class="filter">
+        <ul class="filter-lane__main">
+                <div class="main-category">
+                    <li class="select-item">
+                        <label class="select-label" for="vid">Категория</label>
+                        <select class="select-field" id="vid" name="vid">
+                            <option value="На гравии">На гравии</option>
+                            <option value="На граните">На граните</option>
+                            <option value="Тяжелый">Тяжелый</option>
+                            <option value="Тощий">Тощий</option>
+                            <option value="Для фундамента" selected>Для фундамента</option>
+                            <option value="Керамзитобетон">Керамзитобетон</option>
+                            <option value="Пескобетон">Пескобетон</option>
+                            <option value="Мостовой">Мостовой</option>
+                        </select>
+                    </li>
+                </div>
+
+                <ul class="filter-lane__marki">
+                <li>
+                    <input class="input" id="m50" type="radio" name="marka" checked>
+                    <label class="input-label" for="m50">M50</label>
+                </li>
+                <li>
+                    <input class="input" id="m75" type="radio" name="marka">
+                    <label class="input-label" for="m75">M75</label>
+                </li>
+                <li>
+                    <input class="input" id="m100" type="radio" name="marka">
+                    <label class="input-label" for="m100">M100</label>
+                </li>
+                <li>
+                    <input class="input" id="m150" type="radio" name="marka">
+                    <label class="input-label" for="m150">M150</label>
+                </li>
+                <li>
+                    <input class="input" id="m200" type="radio" name="marka">
+                    <label class="input-label" for="m200">M200</label>
+                </li>
+                <li>
+                    <input class="input" id="m250" type="radio" name="marka">
+                    <label class="input-label" for="m250">M250</label>
+                </li>
+                <li>
+                    <input class="input" id="m300" type="radio" name="marka">
+                    <label class="input-label" for="m300">M300</label>
+                </li>
+                <li>
+                    <input class="input" id="m350" type="radio" name="marka">
+                    <label class="input-label" for="m350">M350</label>
+                </li>
+                <li>
+                    <input class="input" id="m400" type="radio" name="marka">
+                    <label class="input-label" for="m400">M400</label>
+                </li>
+                <li>
+                    <input class="input" id="m450" type="radio" name="marka">
+                    <label class="input-label" for="m450">M450</label>
+                </li>
+                <li>
+                    <input class="input" id="m500" type="radio" name="marka">
+                    <label class="input-label" for="m500">M500</label>
+                </li>
+                <li>
+                    <input class="input" id="m550" type="radio" name="marka">
+                    <label class="input-label" for="m550">M550</label>
+                </li>
+                <li>
+                    <input class="input" id="m600" type="radio" name="marka">
+                    <label class="input-label" for="m600">M600</label>
+                </li>
+                <li>
+                    <input class="input" id="m650" type="radio" name="marka">
+                    <label class="input-label" for="m650">M650</label>
+                </li>
+                <li>
+                    <input class="input" id="m700" type="radio" name="marka">
+                    <label class="input-label" for="m700">M700</label>
+                </li>
+                <li>
+                    <input class="input" id="m750" type="radio" name="marka">
+                    <label class="input-label" for="m750">M750</label>
+                </li>
+                <li>
+                    <input class="input" id="m800" type="radio" name="marka">
+                    <label class="input-label" for="m800">M800</label>
+                </li>
+                <li>
+                    <input class="input" id="m900" type="radio" name="marka">
+                    <label class="input-label" for="m900">M900</label>
+                </li>
+                <li>
+                    <input class="input" id="m1000" type="radio" name="marka">
+                    <label class="input-label" for="m1000">M1000</label>
+                </li>
+            </ul>
+        </ul>
+
+        <ul class="filter-lane filter-lane__categories">
+
+            <li class="volume">
+                <label class="volume__label" for="volume">Объем</label>
+                <div class="volume__range">
+                    <span class="volume__range-diapazon">1</span><span class="volume__range-diapazon">100</span>
+                </div>
+                <span id="volume__icon" class="volume__icon">1</span>
+                <input class="volume__slider" type="range" id="volume" name="volume" min="1" max="100" value="1" step="1">
+
+            </li>
+            
+            <li class="select-item select-item__dobavki">
+                <label class="select-label" for="dobavki">Добавки</label>
+                <select class="select-field" id="dobavki" name="dobavki">
+                    <option value="На гравии">На гравии</option>
+                    <option value="На граните">На граните</option>
+                    <option value="Тяжелый">Тяжелый</option>
+                    <option value="Тощий">Тощий</option>
+                    <option value="Для фундамента" selected>Для фундамента</option>
+                    <option value="Керамзитобетон">Керамзитобетон</option>
+                    <option value="Пескобетон">Пескобетон</option>
+                    <option value="Мостовой">Мостовой</option>
+                </select>
+            </li>
+
+            <li class="select-item select-item__nasos">
+                <label class="select-label" for="nasos">Бетононасос</label>
+                <select class="select-field" id="nasos" name="nasos">
+                    <option value="На гравии">На гравии</option>
+                    <option value="На граните">На граните</option>
+                    <option value="Тяжелый">Тяжелый</option>
+                    <option value="Тощий">Тощий</option>
+                    <option value="Для фундамента" selected>Для фундамента</option>
+                    <option value="Керамзитобетон">Керамзитобетон</option>
+                    <option value="Пескобетон">Пескобетон</option>
+                    <option value="Мостовой">Мостовой</option>
+                </select>
+            </li>
+
+            <li class="select-item">
+                <label class="select-label" for="dostavka">Доставка</label>
+                <select class="select-field" id="dostavka" name="dostavka">
+                    <option value="in" selected>По городу</option>
+                    <option value="out">За город</option>
+                </select>
+            </li>
+
+            
+            <li class="distance no_active">
+                <label class="volume__label" for="distance">Расстояние</label>
+                <div class="volume__range">
+                    <span class="volume__range-diapazon">1</span><span class="volume__range-diapazon">100</span>
+                </div>
+                <span id="volume__icon" class="volume__icon">1</span>
+                <input class="volume__slider" type="range" id="distance" name="distance" min="1" max="100" value="1" step="1">
+
+            </li>
+
+            
+        </ul>
+
+        <div class="filter-lane filter-lane__buttons">
+                <div class="checkboxes">
+                    <li class="filter-checkbox">
+                        <input class="checkbox__input" id="recommended" type="checkbox">
+                        <label class="checkbox__label sort__recommended" for="recommended">только рекомендованные</label>
+                    </li>
+
+                    <li class="filter-checkbox">
+                        <input class="checkbox__input" id="zavody" type="checkbox">
+                        <label class="checkbox__label sort__recommended" for="zavody">только заводы</label>
+                    </li>
+                </div>
+                <div class="buttons">
+                    <button class="button_reset">Сбросить</button>
+                    <button class="button button_show">Показать</button>
+                </div>
+        </div>
+    </div>
+
+<script src="/filter/filter.js"></script>
+</body>
+</html>

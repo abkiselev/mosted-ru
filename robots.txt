@@ -1,0 +1,4 @@
+User-agent: *
+Crawl-delay: 1
+Host: mosted.ru
+Sitemap: https://mosted.ru/sitemap.xml

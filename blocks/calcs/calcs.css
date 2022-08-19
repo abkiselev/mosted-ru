@@ -1,0 +1,52 @@
+.calcs {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.calcs__card {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    flex-basis: 33.333%;
+}
+.calcs__img {
+    width: 70px;
+    height: 70px;
+}
+.calcs__name {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.calcs__text {
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+
+@media (max-width: 965px) {
+    .calcs {
+        flex-wrap: wrap;
+    }
+    
+    .calcs__card {
+        flex-basis: 45%;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .calcs {
+        flex-wrap: wrap;
+    }
+    
+    .calcs__card {
+        flex-basis: 100%;
+    }
+}

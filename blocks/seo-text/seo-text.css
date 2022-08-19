@@ -1,0 +1,13 @@
+.seo-text__article {
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+
+.seo-text__title {
+    font-size: 20px;
+}
+
+.seo-text__text {
+    font-size: 14px;
+    line-height: 1.3;
+}
